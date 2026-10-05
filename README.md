@@ -1,4 +1,4 @@
-# 🎮 Sokoban Game in C
+🎮 Sokoban Game in C
 
 «A classic Sokoban puzzle game I developed in C during secondary school.»
 
