@@ -1,45 +1,46 @@
-🎮 Sokoban Game in C
+# 🎮 Sokoban Game in C
 
-«A classic Sokoban puzzle game I developed in C during secondary school.»
+> *A classic Sokoban puzzle game I developed in C during secondary school.*
 
-"C" (https://img.shields.io/badge/Language-C-blue.svg)
-"Platform" (https://img.shields.io/badge/Platform-Windows-lightgrey.svg)
-"Game" (https://img.shields.io/badge/Type-Console%20Game-green.svg)
-"Levels" (https://img.shields.io/badge/Levels-3-orange.svg)
+![Language](https://img.shields.io/badge/Language-C-blue.svg)
+![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey.svg)
+![Game](https://img.shields.io/badge/Type-Console%20Game-green.svg)
+![Levels](https://img.shields.io/badge/Levels-3-orange.svg)
 
 ---
 
-📖 About the Project
+## 📖 About the Project
 
-This is a Sokoban puzzle game developed in C when I was still in secondary school.
+This is a Sokoban puzzle game developed in **C** when I was still in secondary school.
 
-The project was one of my early experiences with programming and game development. I built it as a Windows console application, implementing the game logic, player movement, box pushing, levels, menus, save/continue functionality, and keyboard controls.
+The project was one of my early experiences with programming and game development. I built it as a **Windows console application**, implementing the game logic, player movement, box pushing, levels, menus, save/continue functionality, and keyboard controls.
 
 Looking back at this project, it represents one of the first steps in my journey as a software developer.
 
-«💡 Built as a school-era programming project — a small project, but an important part of my programming journey.»
+> 💡 *Built as a school-era programming project — a small project, but an important part of my programming journey.*
 
 ---
 
-🧩 What is Sokoban?
+## 🧩 What is Sokoban?
 
-Sokoban is a classic puzzle game where the player must push boxes onto designated locations.
+**Sokoban** is a classic puzzle game where the player must push boxes onto designated locations.
 
-The challenge is that boxes can be pushed but not pulled, so every movement has to be carefully planned.
+The challenge is that boxes can be **pushed but not pulled**, so every movement has to be carefully planned.
 
-Game Symbols
+### Game Symbols
 
-Symbol| Meaning
-"@"| 👤 Player
-"B"| 📦 Box
-"x"| 🎯 Target
-"O"| ✅ Box placed on target
-"#"| 🧱 Wall
-" "| Empty space
+| Symbol | Meaning                 |
+| :----: | :---------------------- |
+|   `@`  | 👤 Player               |
+|   `B`  | 📦 Box                  |
+|   `x`  | 🎯 Target               |
+|   `O`  | ✅ Box placed on target |
+|   `#`  | 🧱 Wall                 |
+|   ` `  | Empty space             |
 
 ---
 
-✨ Features
+## ✨ Features
 
 - 🎮 Console-based gameplay
 - 🧩 3 playable levels
@@ -58,50 +59,49 @@ Symbol| Meaning
 
 ---
 
-🎮 Controls
+## 🎮 Controls
 
-Movement
+### Movement
 
-The game supports both arrow keys and keyboard controls.
+The game supports both **arrow keys** and **keyboard controls**.
 
-Action| Keys
-⬆️ Move Up| "↑" / "W" / "Z"
-⬇️ Move Down| "↓" / "S"
-⬅️ Move Left| "←" / "A" / "Q"
-➡️ Move Right| "→" / "D"
-⚙️ Game Options| "F2"
-🚪 Exit current game| "ESC"
+| Action               | Keys            |
+| :------------------- | :-------------- |
+| ⬆️ Move Up           | `↑` / `W` / `Z` |
+| ⬇️ Move Down         | `↓` / `S`       |
+| ⬅️ Move Left         | `←` / `A` / `Q` |
+| ➡️ Move Right        | `→` / `D`       |
+| ⚙️ Game Options      | `F2`            |
+| 🚪 Exit current game | `ESC`           |
 
-The controls support both QWERTY and AZERTY keyboard layouts.
+The controls support both **QWERTY** and **AZERTY** keyboard layouts.
 
 ---
 
-🗺️ Levels
+## 🗺️ Levels
 
-The game contains three levels with different maps and increasing difficulty.
+The game contains **three levels** with different maps and increasing difficulty.
 
-Level 1
-
+### Level 1
 A basic Sokoban puzzle designed to introduce the player to the mechanics.
 
-Level 2
-
+### Level 2
 A more complex map requiring more careful planning.
 
-Level 3
-
+### Level 3
 The final and most challenging level.
 
-Complete all targets to finish the game.
+> Complete all targets to finish the game.
 
 ---
 
-🖥️ Screenshots
+## 🖥️ Screenshots
 
-«📸 Screenshots can be added here later.»
+> 📸 *Screenshots can be added here later.*
 
 For example:
 
+```
 +--------------------------------+
 |       SOKOBAN GAME BY GIFT     |
 |                                |
@@ -114,63 +114,75 @@ For example:
 |          Exit                  |
 |                                |
 +--------------------------------+
+```
 
 ---
 
-🛠️ Technologies
+## 🛠️ Technologies
 
 This project was developed using:
 
-- C
-- "stdio.h"
-- "stdlib.h"
-- "string.h"
-- "time.h"
-- "conio.h"
-- "windows.h"
+- **C**
+- `stdio.h`
+- `stdlib.h`
+- `string.h`
+- `time.h`
+- `conio.h`
+- `windows.h`
 - Windows Console API
 
-The game uses functions such as "getch()", "gotoxy()", and Windows console commands to create the interactive terminal interface.
+The game uses functions such as `getch()`, `gotoxy()`, and Windows console commands to create the interactive terminal interface.
 
 ---
 
-🚀 How to Run
+## 🚀 How to Run
 
-Requirements
+### Requirements
 
 Because the project uses Windows-specific libraries such as:
 
+```c
 #include <conio.h>
 #include <windows.h>
+```
 
-it is designed to run on Windows.
+it is designed to run on **Windows**.
 
-You will need a C compiler such as GCC/MinGW.
+You will need a C compiler such as **GCC/MinGW**.
 
-1. Clone the repository
+### 1. Clone the repository
 
+```bash
 git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
+```
 
-2. Open the project folder
+### 2. Open the project folder
 
+```bash
 cd YOUR-REPOSITORY
+```
 
-3. Compile
+### 3. Compile
 
+```bash
 gcc "gift sokoban.c" -o sokoban.exe
+```
 
-4. Run
+### 4. Run
 
+```bash
 sokoban.exe
+```
 
-«⚠️ The project contains Windows-specific functionality, so compilation and execution on Linux/macOS may require modifications.»
+> ⚠️ *The project contains Windows-specific functionality, so compilation and execution on Linux/macOS may require modifications.*
 
 ---
 
-📁 Project Structure
+## 📁 Project Structure
 
 For the complete experience, keep the supporting folders together with the source code:
 
+```
 Sokoban/
 │
 ├── gift sokoban.c
@@ -184,12 +196,13 @@ Sokoban/
 │
 └── save/
     └── save data.dat
+```
 
-The additional files are used by the original program for instructions, tutorial content, and game saving.
+The additional files are used by the original program for **instructions**, **tutorial content**, and **game saving**.
 
 ---
 
-🧠 What I Learned
+## 🧠 What I Learned
 
 Although this was an early project, developing it helped me understand several fundamental programming concepts:
 
@@ -208,11 +221,11 @@ Although this was an early project, developing it helped me understand several f
 - Console manipulation
 - Structuring a larger C program
 
-Most importantly, it gave me an early practical experience of turning an idea into a working software project.
+Most importantly, it gave me an early practical experience of **turning an idea into a working software project**.
 
 ---
 
-🔧 Possible Improvements
+## 🔧 Possible Improvements
 
 If I revisit this project in the future, I would like to improve:
 
@@ -231,32 +244,32 @@ If I revisit this project in the future, I would like to improve:
 
 ---
 
-👨‍💻 Author
+## 👨‍💻 Author
 
-Gift Mouafo Keryan
+**Gift Mouafo Keryan**
 
 Software Engineering student & aspiring software developer.
 
 This project represents one of my early steps into programming and game development.
 
-Made with C during my secondary-school years.
+*Made with C during my secondary-school years.*
 
 ---
 
-⭐ A Piece of My Programming Journey
+## ⭐ A Piece of My Programming Journey
 
 This repository is not just a game.
 
-It is a snapshot of where my programming journey started.
+It is a **snapshot of where my programming journey started**.
 
 From writing a console game in C during secondary school to developing larger software projects, this project represents the curiosity that pushed me to keep learning and building.
 
-«Every developer starts somewhere. This was one of my beginnings. 🚀»
+> *Every developer starts somewhere. This was one of my beginnings. 🚀*
 
 ---
 
-📜 License
+## 📜 License
 
-This project is shared for educational and portfolio purposes.
+This project is shared for **educational and portfolio purposes**.
 
 Feel free to explore the code and learn from it.
